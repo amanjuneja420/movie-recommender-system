@@ -2,6 +2,17 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
+import gdown
+import os
+
+file_id = "1RVsQo6_xgEb4o3KxMaH1QvPgOYHeRoa4"  # Replace with your actual ID
+url = f"https://drive.google.com/file/d/{file_id}/view?usp=sharing"
+
+output = "similarity_matrix.pkl"
+if not os.path.exists(output):
+    gdown.download(url, output, quiet=False)
+
+
 
 # Load and prepare movie list
 movies = pickle.load(open('movies.pkl', 'rb'))
