@@ -14,15 +14,15 @@ This is a simple content-based movie recommender system built using Python, Pand
 ---
 
 ## 🗂️ File Structure
-Movie_Recommender_System/
-├── app.py # Streamlit application
-├── MovieRecommenderSystem.ipynb # Jupyter notebook (initial work)
-├── movies.pkl # Preprocessed movie data using Count Vectorizer
-├── similarity_matrix.pkl 
-├── tmdb_5000_credits.csv # Dataset - movie credits
-├── tmdb_5000_movies.csv # Dataset - movies
-├── requirements.txt # Required Python packages
-├── README.md # Project documentation
+Movie_Recommender_System<br>
+├── app.py # Streamlit application<br>
+├── MovieRecommenderSystem.ipynb # Jupyter notebook (initial work)<br>
+├── movies.pkl # Preprocessed movie data using Count Vectorizer<br>
+├── similarity_matrix.pkl <br>
+├── tmdb_5000_credits.csv # Dataset - movie credits<br>
+├── tmdb_5000_movies.csv # Dataset - movies<br>
+├── requirements.txt # Required Python packages<br>
+├── README.md # Project documentation<br>
 
 ---
 
